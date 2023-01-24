@@ -6,14 +6,14 @@ const config = {
   plugins: [path.resolve(__dirname, "../index.js")],
   customSyntax: "postcss-scss",
   rules: {
-    "@l3vels/l3-ui-style/use-defined-css-var-when-available": true
+    "@l3-lib/ui-style/use-defined-css-var-when-available": true
   }
 };
 
 const configWithUseRecommendation = {
   ...config,
   rules: {
-    "@l3vels/l3-ui-style/use-defined-css-var-when-available": [
+    "@l3-lib/ui-style/use-defined-css-var-when-available": [
       true,
       {
         useRecommendedFixes: true
@@ -22,7 +22,7 @@ const configWithUseRecommendation = {
   }
 };
 
-describe("@l3vels/l3-ui-style/use-defined-css-var-when-available", () => {
+describe("@l3-lib/ui-style/use-defined-css-var-when-available", () => {
   // since we run tests that actually perform code fixes, the fixtures are expected to change
   const fixturesContentBeforeTests = new Map();
 
@@ -61,13 +61,13 @@ describe("@l3vels/l3-ui-style/use-defined-css-var-when-available", () => {
     const [firstWarning, secondWarning] = warnings;
 
     expect(firstWarning.text).toBe(
-      `Expected \"16px\" to be \"var(--spacing-medium)\" (@l3vels/l3-ui-style/use-defined-css-var-when-available)`
+      `Expected \"16px\" to be \"var(--spacing-medium)\" (@l3-lib/ui-style/use-defined-css-var-when-available)`
     );
     expect(firstWarning.line).toBe(3);
     expect(firstWarning.column).toBe(15);
 
     expect(secondWarning.text).toBe(
-      `Expected \"16px\" to be \"var(--border-radius-big)\" (@l3vels/l3-ui-style/use-defined-css-var-when-available)`
+      `Expected \"16px\" to be \"var(--border-radius-big)\" (@l3-lib/ui-style/use-defined-css-var-when-available)`
     );
     expect(secondWarning.line).toBe(7);
     expect(secondWarning.column).toBe(18);
@@ -111,7 +111,7 @@ describe("@l3vels/l3-ui-style/use-defined-css-var-when-available", () => {
 --font-size-20
 --font-size-general-label
 --font-size-subtext
- (@l3vels/l3-ui-style/use-defined-css-var-when-available)`
+ (@l3-lib/ui-style/use-defined-css-var-when-available)`
     );
     expect(firstWarning.line).toBe(3);
     expect(firstWarning.column).toBe(14);
@@ -157,7 +157,7 @@ describe("@l3vels/l3-ui-style/use-defined-css-var-when-available", () => {
         config: {
           ...config,
           rules: {
-            "@l3vels/l3-ui-style/use-defined-css-var-when-available": ruleConfigValue
+            "@l3-lib/ui-style/use-defined-css-var-when-available": ruleConfigValue
           }
         }
       });

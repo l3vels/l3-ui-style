@@ -8,7 +8,7 @@ Although we use React in our product this library will try to stay framework agn
 ## Installation
 
 ```
-npm install @l3vels/l3-ui-style --save
+npm install @l3-lib/ui-style --save
 ```
 
 
@@ -17,19 +17,19 @@ npm install @l3vels/l3-ui-style --save
 **Styles**: Import the css file in order to have the css variables exposed on the root level
 
 ```scss
-@import "~@l3vels/l3-ui-style/dist/index.min.css";
+@import "~@l3-lib/ui-style/dist/index.min.css";
 ```
 
 or if you want to import it in your JS files
 
 ```javascript
-import "@l3vels/l3-ui-style/dist/index.min.css";
+import "@l3-lib/ui-style/dist/index.min.css";
 ```
 
 **Icons**: We expose each icon's SVG from the dist files so you can use them in your app.
 
 ```javascript
-import IconName from "@l3vels/l3-ui-style/src/Icons/IconName.svg";
+import IconName from "@l3-lib/ui-style/src/Icons/IconName.svg";
 ```
 
 ## Icons
@@ -66,13 +66,13 @@ If you want us to create a non existing l3vels.xyz style icon open a PR with ple
 ## Stylelint rules
 
 It is recommended to extend our [Stylelint](https://stylelint.io/) config in order to ensure proper usage of this library.  
-To use the supplied config, add `@l3vels/l3-ui-style/stylelint-config` as a [Stylelint config extension](https://stylelint.io/user-guide/configure/#extends):
+To use the supplied config, add `@l3-lib/ui-style/stylelint-config` as a [Stylelint config extension](https://stylelint.io/user-guide/configure/#extends):
 
 ```js
 // Your .stylelintrc
 {
   ...
-  "extends": "@l3vels/l3-ui-style/stylelint-config",
+  "extends": "@l3-lib/ui-style/stylelint-config",
   ...
 }
 ```
