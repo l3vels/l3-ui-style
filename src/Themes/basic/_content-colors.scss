@@ -1,207 +1,183 @@
 @mixin define-theme-content-colors() {
-  // green grass
-  --color-grass_green: #037f4c;
-  --color-grass_green-hover: #116846;
-  --color-grass_green-selected: #81bfa5;
+  // primitives  yellow
+  --color-primitive-yellow-50: #fdfaed;
+  --color-primitive-yellow-100: #fbf6dd;
+  --color-primitive-yellow-200: #f8eebb;
+  --color-primitive-yellow-300: #f5e79c;
+  --color-primitive-yellow-400: #f2df7d;
+  --color-primitive-yellow-500: #efd762;
+  --color-primitive-yellow-600: #d7c158;
+  --color-primitive-yellow-700: #8f813a;
 
-  // done green
-  --color-done-green: #00c875;
-  --color-done-green-hover: #0f9b63;
-  --color-done-green-selected: #80e3ba;
-  --color-done-green-selected-with-opacity: rgba(128, 227, 186, 0.6);
+  // primitives  green
+  --color-primitive-green-50: #f2fdf0;
+  --color-primitive-green-100: #d7f8d3;
+  --color-primitive-green-200: #bff4b7;
+  --color-primitive-green-300: #9cee8f;
+  --color-primitive-green-400: #89eb76;
+  --color-primitive-green-500: #6dbc5e;
+  --color-primitive-green-600: #44753a;
+  --color-primitive-green-700: #365e2f;
 
-  // Bright Green
-  --color-bright-green: #9cd326;
-  --color-bright-green-hover: #7ca32b;
-  --color-bright-green-selected: #cde992;
+  // primitives  purple
+  --color-primitive-purple-50: #eee5fd;
+  --color-primitive-purple-100: #decdfb;
+  --color-primitive-purple-200: #be9bf9;
+  --color-primitive-purple-300: #a069f7;
+  --color-primitive-purple-400: #8138f6;
+  --color-primitive-purple-500: #6610f5;
+  --color-primitive-purple-600: #510bc4;
+  --color-primitive-purple-700: #33047a;
 
-  // Saladish
-  --color-saladish: #cab641;
-  --color-saladish-hover: #9d8f3e;
-  --color-saladish-selected: #e4daa0;
+  // primitives  pink
+  --color-primitive-pink-50: #f9e8fc;
+  --color-primitive-pink-100: #f5d1f9;
+  --color-primitive-pink-200: #eca3f4;
+  --color-primitive-pink-300: #e577ef;
+  --color-primitive-pink-400: #e362ee;
+  --color-primitive-pink-500: #dd34e9;
+  --color-primitive-pink-600: #b028ba;
+  --color-primitive-pink-700: #841c8b;
 
-  // Egg Yolk
-  --color-egg_yolk: #ffcb00;
-  --color-egg_yolk-hover: #c29e11;
-  --color-egg_yolk-selected: #ffe580;
-  --color-egg_yolk-rgb: 255, 213, 51;
+  // primitives  red
+  --color-primitive-red-50: #fbeceb;
+  --color-primitive-red-100: #f8d8d8;
+  --color-primitive-red-200: #f5c6c5;
+  --color-primitive-red-300: #f0a19f;
+  --color-primitive-red-400: #eb6c67;
+  --color-primitive-red-500: #e94d45;
+  --color-primitive-red-600: #ba3d37;
+  --color-primitive-red-700: #8b2d29;
 
-  // Working on it
-  --color-working_orange: #fdab3d;
-  --color-working_orange-hover: #c0873c;
-  --color-working_orange-selected: #fed59e;
+  // primitives  blue
+  --color-primitive-blue-50: #ebedfc;
+  --color-primitive-blue-100: #c2c9f6;
+  --color-primitive-blue-200: #9aa5f1;
+  --color-primitive-blue-300: #5d6fea;
+  --color-primitive-blue-400: #364ce6;
+  --color-primitive-blue-500: #3044cf;
+  --color-primitive-blue-600: #2534a1;
+  --color-primitive-blue-700: #151e5b;
 
-  // Dark orange
-  --color-dark-orange: #ff642e;
-  --color-dark-orange-hover: #c25531;
-  --color-dark-orange-selected: #ffb196;
+  // primitives gray
+  --color-primitive-white: #ffffff;
+  --color-primitive-gray-50: #f8faff;
+  --color-primitive-gray-100: #f1f6fe;
+  --color-primitive-gray-200: #dde9fd;
+  --color-primitive-gray-300: #cfe0fc;
+  --color-primitive-gray-400: #bbd4fb;
+  --color-primitive-gray-500: #a8bee2;
+  --color-primitive-gray-600: #8294af;
+  --color-primitive-gray-700: #5d6a7d;
+  --color-primitive-gray-800: #383f4b;
+  --color-primitive-gray-900: #131519;
+  --color-primitive-black: #000000;
 
-  // Peach Color
-  --color-peach: #ffadad;
-  --color-peach-hover: #c2888a;
-  --color-peach-selected: #ffd6d6;
+  // gradient
+  --color-gradient-blue: linear-gradient(180deg, #4ca6f8 0%, #2152f3 100%);
+  --color-gradient-red: linear-gradient(180deg, #d14485 0%, #e23248 100%);
+  --color-gradient-light-green: linear-gradient(180deg, #74faa1 0%, #73f96d 100%);
+  --color-gradient-dark-blue: linear-gradient(180deg, #2961f2 0%, #0406ee 100%);
+  --color-gradient-yellow: linear-gradient(180deg, #fdfe53 0%, #eb9b3a 100%);
+  --color-gradient-light-blue: linear-gradient(180deg, #73fafd 0%, #50b1d7 100%);
+  --color-gradient-green: linear-gradient(180deg, #cefb53 0%, #7af94b 100%);
+  --color-gradient-orange: linear-gradient(180deg, #eea03c 0%, #e85c29 100%);
+  --color-gradient-pink: linear-gradient(180deg, #e332e6 0%, #a822f3 100%);
 
-  // Sunset Color
-  --color-sunset: #ff7575;
-  --color-sunset-hover: #c26163;
-  --color-sunset-selected: #ffbaba;
-  --color-sunset-selected-with-opacity: rgba(255, 186, 186, 0.6);
+  // Transparent black
+  --color-transparent-black-09: rgba(0, 0, 0, 0.9);
+  --color-transparent-black-08: rgba(0, 0, 0, 0.8);
+  --color-transparent-black-07: rgba(0, 0, 0, 0.7);
+  --color-transparent-black-06: rgba(0, 0, 0, 0.6);
+  --color-transparent-black-05: rgba(0, 0, 0, 0.5);
+  --color-transparent-black-04: rgba(0, 0, 0, 0.4);
+  --color-transparent-black-03: rgba(0, 0, 0, 0.3);
+  --color-transparent-black-02: rgba(0, 0, 0, 0.2);
+  --color-transparent-black-01: rgba(0, 0, 0, 0.1);
 
-  // Stuck red
-  --color-stuck-red: #e2445c;
-  --color-stuck-red-hover: #ad3f51;
-  --color-stuck-red-selected: #f0a1ad;
+  // Transparent white
+  --color-transparent-white-09: rgba(255, 255, 255, 0.9);
+  --color-transparent-white-08: rgba(255, 255, 255, 0.8);
+  --color-transparent-white-07: rgba(255, 255, 255, 0.7);
+  --color-transparent-white-06: rgba(255, 255, 255, 0.6);
+  --color-transparent-white-05: rgba(255, 255, 255, 0.5);
+  --color-transparent-white-04: rgba(255, 255, 255, 0.4);
+  --color-transparent-white-03: rgba(255, 255, 255, 0.3);
+  --color-transparent-white-02: rgba(255, 255, 255, 0.2);
+  --color-transparent-white-01: rgba(255, 255, 255, 0.1);
 
-  // Dark red
-  --color-dark-red: #bb3354;
-  --color-dark-red-hover: #92334c;
-  --color-dark-red-selected: #dd99a9;
+  // foundation
+  --color-primary-a: var(--color-primitive-black);
+  --color-primary-b: var(--color-primitive-white);
+  --color-accent: var(--color-primitive-gray-400);
+  --color-negative: var(--color-primitive-red-500);
+  --color-warning: var(--color-primitive-yellow-500);
+  --color-positive: var(--color-primitive-green-400);
 
-  // Sofia
-  --color-sofia_pink: #ff158a;
-  --color-sofia_pink-hover: #c21e71;
-  --color-sofia_pink-selected: #ff8ac4;
+  // core
 
-  // Lipstick color
-  --color-lipstick: #ff5ac4;
-  --color-lipstick-hover: #c24e9a;
-  --color-lipstick-selected: #fface1;
+  //background
 
-  // Bubble
-  --color-bubble: #faa1f1;
-  --color-bubble-hover: #be80ba;
-  --color-bubble-selected: #fcd0f8;
+  --color-core-background-primary: radial-gradient(
+    52.7% 52.7% at 50% 50%,
+    #3e4ea9 0%,
+    #111b52 100%
+  ); // todo maybe change this color
+  --color-core-background-secondary: radial-gradient(52.7% 52.7% at 50% 50%, #3e4ea9 0%, #111b52 100%);
+  --color-core-background-tertiary: var(--color-transparent-white-02);
 
-  // Purple
-  --color-purple: #a25ddc;
-  --color-purple-hover: #8050ab;
-  --color-purple-selected: #d0aeed;
+  //content
+  --color-content-primary: var(--color-primitive-white);
+  --color-content-secondary: var(--color-primitive-black);
+  --color-content-tertiary: var(--color-primitive-gray-400);
+  --color-content-quaternary: var(--color-transparent-white-02);
 
-  // Dark purple
-  --color-dark_purple: #784bd1;
-  --color-dark_purple-hover: #6344a3;
-  --color-dark_purple-selected: #bba5e8;
+  // border
+  --color-border-primary: var(--color-primitive-gray-500);
+  --color-border-secondary: var(--color-primitive-gray-200);
+  --color-border-transparent: rgba(0, 0, 0, 0.08);
+  --border-selected-a: var(--color-primary-a);
+  --border-selected-a: var(--color-accent);
 
-  // Berry
-  --color-berry: #7e3b8a;
-  --color-berry-hover: #673971;
-  --color-berry-selected: #be9dc4;
+  // Core Extensions
 
-  // Dark indigo
-  --color-dark_indigo: #401694;
-  --color-dark_indigo-hover: #3c1f78;
-  --color-dark_indigo-selected: #a08bc9;
+  //   Background
+  --color-background-state-disabled: var(--color-transparent-white-02);
+  --color-background-overlay-art: radial-gradient(52.7% 52.7% at 50% 50%, #3e4ea9 0%, #111b52 100%);
+  --color-background-overlay-dark: var(--color-transparent-black-03);
+  --color-background-overlay-light: rgba(0, 0, 0, 0.08);
+  --color-background-accent: var(--color-accent);
+  --color-background-negative: var(--color-negative);
+  --color-background-warning: var(--color-warning);
+  --color-background-positive: var(--color-positive);
+  --color-background-light-accent: var(--color-primitive-blue-50);
+  --color-background-light-negative: var(--color-primitive-red-50);
+  --color-background-light-warning: var(--color-primitive-yellow-50);
+  --color-background-light-positive: var(--color-primitive-green-50);
+  --color-background-always-dark: var(--color-primitive-black);
+  --color-background-always-white: var(--color-primitive-white);
 
-  // Indigo
-  --color-indigo: #5559df;
-  --color-indigo-hover: #4b4ead;
-  --color-indigo-selected: #aaacef;
+  //content++
+  --color-content-state-disabled: var(--color-primitive-gray-400);
+  --color-content-on-color: var(--color-primitive-white);
+  --color-content-on-color-inverse: var(--color-primitive-black);
+  --color-content-on-color-inverse: var(--color-primitive-black);
+  --color-content-accent: var(--color-primitive-blue-600);
+  --color-content-negative: var(--color-primitive-red-400);
+  --color-content-warning: var(--color-primitive-yellow-600);
+  --color-content-positive: var(--color-primitive-green-600);
 
-  // Navy
-  --color-navy: #225091;
-  --color-navy-hover: #274776;
-  --color-navy-selected: #90a7c8;
+  // border++
+  --color-border-state-disabled: var(--color-primitive-gray-50);
+  --color-border-accent: var(--color-primitive-blue-500);
+  --color-border-accent-light: var(--color-primitive-blue-200);
+  --color-border-negative: var(--color-primitive-red-300);
+  --color-border-warning: var(--color-primitive-yellow-200);
+  --color-border-positive: var(--color-primitive-green-200);
 
-  // Light Blue
-  --color-bright-blue: #579bfc;
-  --color-bright-blue-hover: #4c7cc1;
-  --color-bright-blue-selected: #abcdfd;
+  // Special color
 
-  // Dark blue
-  --color-dark-blue: #0086c0;
-  --color-dark-blue-hover: #0f6d97;
-  --color-dark-blue-selected: #80c2df;
-
-  // Aquamarine
-  --color-aquamarine: #4eccc6;
-  --color-aquamarine-hover: #469e9b;
-  --color-aquamarine-selected: #a6e5e2;
-
-  // Chili Blue
-  --color-chili-blue: #66ccff;
-  --color-chili-blue-hover: #569ec3;
-  --color-chili-blue-selected: #b2e5ff;
-
-  // River
-  --color-river: #68a1bd;
-  --color-river-hover: #588095;
-  --color-river-selected: #b3d0de;
-
-  // winter
-  --color-winter: #9aadbd;
-  --color-winter-hover: #7b8895;
-  --color-winter-selected: #ccd6de;
-
-  // Explosive
-  --color-explosive: #c4c4c4;
-  --color-explosive-hover: #98999a;
-  --color-explosive-selected: #e1e1e1;
-
-  // American Grey
-  --color-american_gray: #808080;
-  --color-american_gray-hover: #69696a;
-  --color-american_gray-selected: #bfbfbf;
-
-  // Blackish
-  --color-blackish: #333333;
-  --color-blackish-hover: #222222;
-  --color-blackish-selected: #999999;
-
-  // Brown
-  --color-brown: #7f5347;
-  --color-brown-hover: #684943;
-  --color-brown-selected: #bfa9a3;
-
-  // Orchid
-  --color-orchid: #d974b0;
-  --color-orchid-hover: #ae5d8d;
-  --color-orchid-selected: #ecbad7;
-
-  // Tan
-  --color-tan: #ad967a;
-  --color-tan-hover: #8a7862;
-  --color-tan-selected: #d6cabc;
-
-  // Sky
-  --color-sky: #a1e3f6;
-  --color-sky-hover: #81b6c5;
-  --color-sky-selected: #d0f1fa;
-
-  // Coffee
-  --color-coffee: #bd816e;
-  --color-coffee-hover: #976758;
-  --color-coffee-selected: #dec0b7;
-
-  // Royal
-  --color-royal: #2b76e5;
-  --color-royal-hover: #225eb7;
-  --color-royal-selected: #95bbf2;
-
-  // Teal
-  --color-teal: #175a63;
-  --color-teal-hover: #12484f;
-  --color-teal-selected: #8bacb1;
-
-  // Lavender
-  --color-lavender: #bda8f9;
-  --color-lavender-hover: #9786c7;
-  --color-lavender-selected: #ded4fc;
-
-  // Steel
-  --color-steel: #a9bee8;
-  --color-steel-hover: #8798ba;
-  --color-steel-selected: #d4dff4;
-
-  // Lilac
-  --color-lilac: #9d99b9;
-  --color-lilac-hover: #7e7a94;
-  --color-lilac-selected: #ceccdc;
-
-  // Pecan
-  --color-pecan: #563e3e;
-  --color-pecan-hover: #453232;
-  --color-pecan-selected: #ab9f9f;
-
-  // default content bg color
-  --content-background-color: #ffffff;
+  // background
+  --color-background-primary: radial-gradient(52.7% 52.7% at 50% 50%, #3e4ea9 0%, #111b52 100%);
+  --color-background-secondary: #dfdfff;
 }
