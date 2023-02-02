@@ -137,7 +137,7 @@
   --color-border-secondary: var(--color-primitive-gray-200);
   --color-border-transparent: rgba(0, 0, 0, 0.08);
   --border-selected-a: var(--color-primary-a);
-  --border-selected-a: var(--color-accent);
+  --border-selected-b: var(--color-accent);
 
   // Core Extensions
 
@@ -160,7 +160,6 @@
   //content++
   --color-content-state-disabled: var(--color-primitive-gray-400);
   --color-content-on-color: var(--color-primitive-white);
-  --color-content-on-color-inverse: var(--color-primitive-black);
   --color-content-on-color-inverse: var(--color-primitive-black);
   --color-content-accent: var(--color-primitive-blue-600);
   --color-content-negative: var(--color-primitive-red-400);
