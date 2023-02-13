@@ -112,7 +112,7 @@ const BORDER_RADIUSES_PROPS = [
   "border-end-end-radius"
 ];
 
-const FONT_FAMILIES_PROPS = ["font", "font-family"];
+const FONT_FAMILIES_PROPS = ["font", "font-family-medium"];
 
 const BORDER_WIDTHS_PROPS = ["border", "border-width"];
 
@@ -160,7 +160,7 @@ const PROPS_TO_ALLOWED_VARS = {
     "--font-size-h5",
     "--font-size-general-label"
   ]),
-  ...mapPropsToAllowedVars(FONT_FAMILIES_PROPS, FONT_FAMILIES, ["--title-font-family"]),
+  ...mapPropsToAllowedVars(FONT_FAMILIES_PROPS, FONT_FAMILIES, ["--font-family-normal"]),
   ...mapPropsToAllowedVars(TIMING_FUNCTION_PROPS, ANIMATION_TIMING, ["--expand-animation-timing"]),
   ...mapPropsToAllowedVars(DURATION_FUNCTION_PROPS, ANIMATION_DURATION, ["--animation-expressive-short"]),
   ...mapPropsToAllowedVars(OPACITY_PROPS, "--disabled-component-opacity"),
