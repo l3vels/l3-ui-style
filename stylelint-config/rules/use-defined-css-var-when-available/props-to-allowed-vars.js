@@ -22,6 +22,7 @@ const FONT_SIZES = [
   "--font-size-40",
   "--font-size-50",
   "--font-size-60",
+  "--font-size-70",
   "--font-size-h1",
   "--font-size-h2",
   "--font-size-h3",
