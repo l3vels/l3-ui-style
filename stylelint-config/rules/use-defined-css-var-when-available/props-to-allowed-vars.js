@@ -32,7 +32,7 @@ const FONT_SIZES = [
   "--font-size-subtext"
 ];
 
-const FONT_FAMILIES = ["--font-family", "--title-font-family", "--h1-font-family"];
+const FONT_FAMILIES = ["--font-family-medium", "--font-family-normal",];
 
 const FONT_WEIGHTS = ["--font-weight-very-light", "--font-weight-light", "--font-weight-normal", "--font-weight-bold"];
 

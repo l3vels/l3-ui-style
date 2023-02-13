@@ -4,9 +4,8 @@
 // - Maps are collected into the $core-settings-map and are interpolated into custom properties.
 
 $core-fonts-map: (
-  font-family: $font-family,
-  title-font-family: $title-font-family,
-  h1-font-family: $h1-font-family,
+  font-family-medium: $font-family-medium,
+  font-family-normal: $font-family-normal,
   font-smoothing-webkit: $font-smoothing-webkit,
   font-smoothing-moz: $font-smoothing-moz
 );
