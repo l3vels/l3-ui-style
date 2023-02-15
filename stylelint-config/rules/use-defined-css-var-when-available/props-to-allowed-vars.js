@@ -32,7 +32,7 @@ const FONT_SIZES = [
   "--font-size-subtext"
 ];
 
-const FONT_FAMILIES = ["--font-family-medium", "--font-family-normal",];
+const FONT_FAMILIES = ["--font-family", "--font-family-normal",];
 
 const FONT_WEIGHTS = ["--font-weight-very-light", "--font-weight-light", "--font-weight-normal", "--font-weight-bold"];
 
@@ -112,7 +112,7 @@ const BORDER_RADIUSES_PROPS = [
   "border-end-end-radius"
 ];
 
-const FONT_FAMILIES_PROPS = ["font", "font-family"];
+const FONT_FAMILIES_PROPS = ["font", "font-family", 'font-family'];
 
 const BORDER_WIDTHS_PROPS = ["border", "border-width"];
 
