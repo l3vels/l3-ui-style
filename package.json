@@ -1,6 +1,6 @@
 {
   "name": "@l3-lib/ui-style",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "L3vels UI CSS",
   "main": "dist/index.css",
   "scripts": {
