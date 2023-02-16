@@ -17,6 +17,18 @@ export const iconsMetaData = [
       tags: "form,note,page"
   },
   {
+      name: "CodeOutline",
+      file: "CodeOutline.svg",
+      description: "CodeOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "BulletList",
+      file: "BulletList.svg",
+      description: "BulletList icon",
+      tags: "form,note,page"
+  },
+  {
       name: "BurgerMenuOutline",
       file: "BurgerMenuOutline.svg",
       description: "BurgerMenuOutline icon",
