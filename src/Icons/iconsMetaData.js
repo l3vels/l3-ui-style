@@ -17,6 +17,54 @@ export const iconsMetaData = [
       tags: "form,note,page"
   },
   {
+      name: "BurgerMenuOutline",
+      file: "BurgerMenuOutline.svg",
+      description: "BurgerMenuOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "ArrowDownOutline",
+      file: "ArrowDownOutline.svg",
+      description: "ArrowDownOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "ArrowUpOutline", 
+      file: "ArrowUpOutline.svg",
+      description: "ArrowUpOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "ArrowLeftOutline", 
+      file: "ArrowLeftOutline.svg",
+      description: "ArrowLeftOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "ArrowRightOutline", 
+      file: "ArrowRightOutline.svg",
+      description: "ArrowRightOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "ArrowRight", 
+      file: "ArrowRight.svg",
+      description: "ArrowRightOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "CloseOutline", 
+      file: "CloseOutline.svg",
+      description: "BurgerMenuOutline icon",
+      tags: "form,note,page"
+  },
+  {
+      name: "Cancel", 
+      file: "Cancel.svg",
+      description: "BurgerMenuOutline icon",
+      tags: "form,note,page"
+  },
+  {
       name: "Form",
       file: "Form.svg",
       description: "Form icon",
