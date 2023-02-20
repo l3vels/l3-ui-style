@@ -425,13 +425,6 @@ export const iconsMetaData = [
   },
 
   {
-      name: "Logs 2",
-      file: "Logs 2.svg",
-      description: "Logs2 fill icon",
-      tags: "form,note,page"
-  },
-
-  {
       name: "Games",
       file: "Games.svg",
       description: "Games fill icon",
@@ -449,13 +442,6 @@ export const iconsMetaData = [
       name: "Etherscan",
       file: "Etherscan.svg",
       description: "Etherscan fill icon",
-      tags: "form,note,page"
-  },
-
-  {
-      name: "Dowload",
-      file: "Dowload.svg",
-      description: "Download fill icon",
       tags: "form,note,page"
   },
 
