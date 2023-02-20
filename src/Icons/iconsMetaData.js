@@ -5,6 +5,531 @@ export const iconsMetaData = [
   // DO NOT REMOVE THIS FOLLOWING LINE!
   // plop_marker:icon_metadata
   {
+      name: "DragDrop",
+      file: "DragDrop.svg",
+      description: "DragDrop special icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ChevronUp",
+      file: "ChevronUp.svg",
+      description: "ChevronUp special icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ChevronDown",
+      file: "ChevronDown.svg",
+      description: "ChevronDown special icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "CheckboxCheked",
+      file: "CheckboxCheked.svg",
+      description: "CheckboxChecked special icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Warning",
+      file: "Warning.svg",
+      description: "Warning special icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Done",
+      file: "Done.svg",
+      description: "Done special warning icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "VideoOutline",
+      file: "VideoOutline.svg",
+      description: "VideoOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ValueOutline",
+      file: "ValueOutline.svg",
+      description: "valueOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "UploadOutline",
+      file: "UploadOutline.svg",
+      description: "UploadOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "TextTypeOutline",
+      file: "TextTypeOutline.svg",
+      description: "TextTypeOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "TagsOutline",
+      file: "TagsOutline.svg",
+      description: "TagsOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "StarOutline",
+      file: "StarOutline.svg",
+      description: "StarOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SoundOnOutline",
+      file: "SoundOnOutline.svg",
+      description: "SoundOnOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SoundOffOutline",
+      file: "SoundOffOutline.svg",
+      description: "SoundOffOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SortingOutline",
+      file: "SortingOutline.svg",
+      description: "SortingOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ShareOutline",
+      file: "ShareOutline.svg",
+      description: "ShareOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SettingsOutline",
+      file: "SettingsOutline.svg",
+      description: "SettingsOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SendOutline",
+      file: "SendOutline.svg",
+      description: "SendOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SearchOutline",
+      file: "SearchOutline.svg",
+      description: "SearchOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SaveOutline",
+      file: "SaveOutline.svg",
+      description: "SaveOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ReloadOutline",
+      file: "ReloadOutline.svg",
+      description: "RealoadOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "PlayOutline",
+      file: "PlayOutline.svg",
+      description: "PlayOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "PersonaOutline",
+      file: "PersonaOutline.svg",
+      description: "PersonaOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "PauseOutline",
+      file: "PauseOutline.svg",
+      description: "PauseOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "NumberOutline",
+      file: "NumberOutline.svg",
+      description: "NumberOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "MinusOutline",
+      file: "MinusOutline.svg",
+      description: "MinusOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "MenuOutline",
+      file: "MenuOutline.svg",
+      description: "MenuOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "MenuDotsOutline",
+      file: "MenuDotsOutline.svg",
+      description: "MenuDotsOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "MentionOutline",
+      file: "MentionOutline.svg",
+      description: "MentionOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "LocationOutline",
+      file: "LocationOutline.svg",
+      description: "LocationOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "LinkOutline",
+      file: "LinkOutline.svg",
+      description: "LinkOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ImageOutline",
+      file: "ImageOutline.svg",
+      description: "ImageOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "GifOutline",
+      file: "GifOutline.svg",
+      description: "GifOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "FormulaOutline",
+      file: "FormulaOutline.svg",
+      description: "FormulaOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "FilterOutline",
+      file: "FilterOutline.svg",
+      description: "FilterOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ExpanndOutline",
+      file: "ExpanndOutline.svg",
+      description: "ExpanndOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "DollarOutline",
+      file: "DollarOutline.svg",
+      description: "DollarOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "CollapseOutline",
+      file: "CollapseOutline.svg",
+      description: "CollapseOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "CalendarOutline",
+      file: "CalendarOutline.svg",
+      description: "CalendarOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "BulletListOutline",
+      file: "BulletListOutline.svg",
+      description: "BulletListOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "AddOutline",
+      file: "AddOutline.svg",
+      description: "AddOutline icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Web",
+      file: "Web.svg",
+      description: "Web fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Wallet",
+      file: "Wallet.svg",
+      description: "Wallet fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Value",
+      file: "Value.svg",
+      description: "value fill icon",
+      tags: "fomr,note,page"
+  },
+
+  {
+      name: "Twiter",
+      file: "Twiter.svg",
+      description: "Twitter fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "TextType",
+      file: "TextType.svg",
+      description: "TextType fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Teplates",
+      file: "Teplates.svg",
+      description: "Teplates fill icon ",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Teams",
+      file: "Teams.svg",
+      description: "Teams fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Store",
+      file: "Store.svg",
+      description: "Store fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SoundOn",
+      file: "SoundOn.svg",
+      description: "SoundOn fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "SoundOff",
+      file: "SoundOff.svg",
+      description: "SoundOff fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Sorting",
+      file: "Sorting.svg",
+      description: "Sorting fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Royalties",
+      file: "Royalties.svg",
+      description: "Royalties fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Persona",
+      file: "Persona.svg",
+      description: "Persona fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Payments",
+      file: "Payments.svg",
+      description: "Payments fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Number",
+      file: "Number.svg",
+      description: "Number fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Minus",
+      file: "Minus.svg",
+      description: "Minus fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Minting",
+      file: "Minting.svg",
+      description: "Minting fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "MenuDots",
+      file: "MenuDots.svg",
+      description: "MenuDots fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Logs",
+      file: "Logs.svg",
+      description: "Logs fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Logs 2",
+      file: "Logs 2.svg",
+      description: "Logs2 fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Games",
+      file: "Games.svg",
+      description: "Games fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Expannd",
+      file: "Expannd.svg",
+      description: "Expannd fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Etherscan",
+      file: "Etherscan.svg",
+      description: "Etherscan fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Dowload",
+      file: "Dowload.svg",
+      description: "Download fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Dollar",
+      file: "Dollar.svg",
+      description: "Dollar fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Discord",
+      file: "Discord.svg",
+      description: "Discord fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Copy",
+      file: "Copy.svg",
+      description: "Copy fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Contrast",
+      file: "Contrast.svg",
+      description: "Contrast fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Contracts",
+      file: "Contracts.svg",
+      description: "Contracts fill icon ",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "Collection",
+      file: "Collection.svg",
+      description: "Collection fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "BurgerMenu",
+      file: "BurgerMenu.svg",
+      description: "BurgerMenu fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ArrowUp",
+      file: "ArrowUp.svg",
+      description: "ArrowUp fill icon ",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ArrowLeft",
+      file: "ArrowLeft.svg",
+      description: "ArrowLeft fill icon",
+      tags: "form,note,page"
+  },
+
+  {
+      name: "ArrowDown",
+      file: "ArrowDown.svg",
+      description: "ArrowDown fill icon",
+      tags: "form,note,page"
+  },
+
+  {
       name: "About",
       file: "About.svg",
       description: "About icon",
