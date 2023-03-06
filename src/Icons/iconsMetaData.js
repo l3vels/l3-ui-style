@@ -5,6 +5,27 @@ export const iconsMetaData = [
   // DO NOT REMOVE THIS FOLLOWING LINE!
   // plop_marker:icon_metadata
   {
+      name: "SpecialWarning",
+      file: "SpecialWarning.svg",
+      description: "Speacial Warning icon fot toast ",
+      tags: "toast warning, triange, "
+  },
+
+  {
+      name: "SpeacialCheck",
+      file: "SpeacialCheck.svg",
+      description: "Speacial Icon Check for toast",
+      tags: "toast, icon, triangle, check"
+  },
+
+  {
+      name: "SpeaciaWarningInfo",
+      file: "SpeaciaWarningInfo.svg",
+      description: "SpeacialWarning icon for toast",
+      tags: "icon, toast, triangle, warning"
+  },
+
+  {
       name: "DragDrop",
       file: "DragDrop.svg",
       description: "DragDrop special icon",
