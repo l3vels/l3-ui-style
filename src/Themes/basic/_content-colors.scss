@@ -166,9 +166,7 @@
   --color-background-warning: var(--color-gradient-yellow);
   --color-background-positive: var(--color-gradient-green);
 
-
-
-
+  // background ++
   --color-core-background-primary: var(--color-primitive-black)
   --color-core-background-secondary: var(--color-primitive-white),
   --color-core-background-tertiary: var(--color-transparent-white-02),
@@ -191,8 +189,6 @@
 
 
   // core background 
-
-
   --color-background-core-disabled: var(--color-transparent-white-02)
   --color-background-core-overlay-dak: var(--color-transparent-black-02),
   --color-background-core-overlay-light: var(--color-transparent-white-01),
@@ -202,7 +198,7 @@
   --color-background-core-positive: var(--color-gradient-green),
 
 
-
+  //content colors 
   --color-content-disabled: var(--color-transparent-white-04),
   --color-content-on-color: var(--color-primitive-white),
   --color-content-on-color-inverse: var(--color-primitive-black),
@@ -213,7 +209,7 @@
   --color-content-positive: var(--color-gradient-green),
 
 
-
+  // border colors 
   --color-border-disabled: var(--color-transparent-white-04),
   --color-border-accent: var(--color-gradient-teal),
   --color-border-negative: var(--color-gradient-red),
