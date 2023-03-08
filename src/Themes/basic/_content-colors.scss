@@ -124,11 +124,11 @@
     --color-primitive-black: #000000;
 
     // gradient colors
-    --color-gradient-blue: linear-gradient(180deg, #4CA6F8 0%, 2152F3 100%);
-    --color-gradient-red: linear-gradient(180deg, #D14485 0%, E23248 100%);
-    --color-gradient-light-green: linear-gradient(180deg, #74FAA1 0%, 73F96D 100%);
-    --color-gradient-dark-blue: linear-gradient(180deg, #2961F2 0%, 0406EE 100%);
-    --color-gradient-yellow: linear-gradient(180deg, #FDFE53 0%, EB9B3A 100%);
+    --color-gradient-blue: linear-gradient(180deg, #4CA6F8 0%, #2152F3 100%);
+    --color-gradient-red: linear-gradient(180deg, #D14485 0%, #E23248 100%);
+    --color-gradient-light-green: linear-gradient(180deg, #74FAA1 0%, #73F96D 100%);
+    --color-gradient-dark-blue: linear-gradient(180deg, #2961F2 0%, #0406EE 100%);
+    --color-gradient-yellow: linear-gradient(180deg, #FDFE53 0%, #EB9B3A 100%);
     --color-gradient-teal: linear-gradient(180deg, #73FAFD 0%, #50B1D7 100%);
     --color-gradient-green: linear-gradient(180deg, #CEFB53 0%, #7AF94B 100%);
     --color-gradient-orange: linear-gradient(180deg, #EEA03C 0%, #E85C29 100%);
@@ -194,7 +194,7 @@
   --color-background-core-overlay-light: var(--color-transparent-white-01);
   --color-background-core-accent: var(--color-gradient-teal);
   --color-background-core-negative: var(--color-gradient-red);
-  --color-background-core-warning: var(--color-gradient-yellow) ;
+  --color-background-core-warning: var(--color-gradient-yellow);
   --color-background-core-positive: var(--color-gradient-green);
 
 
@@ -205,7 +205,7 @@
   --color-content-on-color-inverse-secondary: var(--color-transparent-black-06);
   --color-content-accent:  var(--color-gradient-teal);
   --color-content-negative: var(--color-gradient-red);
-  --color-content-warning: var(--color-gradient-yellow) ;
+  --color-content-warning: var(--color-gradient-yellow);
   --color-content-positive: var(--color-gradient-green);
 
 
