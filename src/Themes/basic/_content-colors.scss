@@ -159,7 +159,7 @@
 
 
   // backgrounds 
-  --color-background-primary-a: var(--color-primitive-black)
+  --color-background-primary-a: var(--color-primitive-black);
   --color-background-primary-b: var(--color-primitive-white);
   --color-background-accent: var(--color-gradient-teal);
   --color-background-negative: var(--color-gradient-red);
@@ -167,9 +167,9 @@
   --color-background-positive: var(--color-gradient-green);
 
   // background ++
-  --color-core-background-primary: var(--color-primitive-black)
-  --color-core-background-secondary: var(--color-primitive-white),
-  --color-core-background-tertiary: var(--color-transparent-white-02),
+  --color-core-background-primary: var(--color-primitive-black);
+  --color-core-background-secondary: var(--color-primitive-white);
+  --color-core-background-tertiary: var(--color-transparent-white-02);
 
 
   // contents 
@@ -189,32 +189,32 @@
 
 
   // core background 
-  --color-background-core-disabled: var(--color-transparent-white-02)
-  --color-background-core-overlay-dak: var(--color-transparent-black-02),
-  --color-background-core-overlay-light: var(--color-transparent-white-01),
-  --color-background-core-accent: var(--color-gradient-teal),
-  --color-background-core-negative: var(--color-gradient-red),
-  --color-background-core-warning: var(--color-gradient-yellow) ,
-  --color-background-core-positive: var(--color-gradient-green),
+  --color-background-core-disabled: var(--color-transparent-white-02);
+  --color-background-core-overlay-dak: var(--color-transparent-black-02);
+  --color-background-core-overlay-light: var(--color-transparent-white-01);
+  --color-background-core-accent: var(--color-gradient-teal);
+  --color-background-core-negative: var(--color-gradient-red);
+  --color-background-core-warning: var(--color-gradient-yellow) ;
+  --color-background-core-positive: var(--color-gradient-green);
 
 
   //content colors 
-  --color-content-disabled: var(--color-transparent-white-04),
-  --color-content-on-color: var(--color-primitive-white),
-  --color-content-on-color-inverse: var(--color-primitive-black),
-  --color-content-on-color-inverse-secondary: var(--color-transparent-black-06),
-  --color-content-accent:  var(--color-gradient-teal),
-  --color-content-negative: var(--color-gradient-red),
-  --color-content-warning: var(--color-gradient-yellow) ,
-  --color-content-positive: var(--color-gradient-green),
+  --color-content-disabled: var(--color-transparent-white-04);
+  --color-content-on-color: var(--color-primitive-white);
+  --color-content-on-color-inverse: var(--color-primitive-black);
+  --color-content-on-color-inverse-secondary: var(--color-transparent-black-06);
+  --color-content-accent:  var(--color-gradient-teal);
+  --color-content-negative: var(--color-gradient-red);
+  --color-content-warning: var(--color-gradient-yellow) ;
+  --color-content-positive: var(--color-gradient-green);
 
 
   // border colors 
-  --color-border-disabled: var(--color-transparent-white-04),
-  --color-border-accent: var(--color-gradient-teal),
-  --color-border-negative: var(--color-gradient-red),
-  --color-border-warning: var(--color-gradient-yellow),
-  --color-border-positive: var(--color-gradient-green),
+  --color-border-disabled: var(--color-transparent-white-04);
+  --color-border-accent: var(--color-gradient-teal);
+  --color-border-negative: var(--color-gradient-red);
+  --color-border-warning: var(--color-gradient-yellow);
+  --color-border-positive: var(--color-gradient-green);
 
   // background
   --color-background-primary: radial-gradient(52.7% 52.7% at 50% 50%, #3e4ea9 0%, #111b52 100%);
