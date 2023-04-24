@@ -5,6 +5,176 @@ export const iconsMetaData = [
   // DO NOT REMOVE THIS FOLLOWING LINE!
   // plop_marker:icon_metadata
   {
+      name: "Toggle",
+      file: "Toggle.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Styles",
+      file: "Styles.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Star",
+      file: "Star.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "SortDec",
+      file: "SortDec.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "SortAsc",
+      file: "SortAsc.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Slider",
+      file: "Slider.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Select",
+      file: "Select.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Save",
+      file: "Save.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Reload",
+      file: "Reload.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Relation",
+      file: "Relation.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Properties",
+      file: "Properties.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Points",
+      file: "Points.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Object",
+      file: "Object.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "MultiSelect",
+      file: "MultiSelect.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Minted",
+      file: "Minted.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Level",
+      file: "Level.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "Id",
+      file: "Id.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "History",
+      file: "History.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "EyeOpen",
+      file: "EyeOpen.svg",
+      description: "",
+      tags: ""
+  },
+
+  {
+      name: "EyeClosed",
+      file: "EyeClosed.svg",
+      description: "Eye close svg",
+      tags: "eye, close , svg icon "
+  },
+
+
+
+  {
+      name: "Attributes",
+      file: "Attributes.svg",
+      description: "attributes svg icon ",
+      tags: "attributes , icon , svg"
+  },
+
+  {
+      name: "ArrowsUp",
+      file: "ArrowsUp.svg",
+      description: "arrows up svg icon",
+      tags: "arrow, up, arrow up"
+  },
+
+  {
+      name: "ArrowsDown",
+      file: "ArrowsDown.svg",
+      description: "arrows down svg ",
+      tags: "arrow, down, arrow down"
+  },
+
+  {
+      name: "Array",
+      file: "Array.svg",
+      description: "array icon svg",
+      tags: "array , icon , svg"
+  },
+
+  {
       name: "SpecialWarning",
       file: "SpecialWarning.svg",
       description: "Speacial Warning icon fot toast ",
@@ -16,7 +186,7 @@ export const iconsMetaData = [
       file: "SpeacialCheck.svg",
       description: "Speacial Icon Check for toast",
       tags: "toast, icon, triangle, check"
-  },
+  },arr
 
   {
       name: "SpeaciaWarningInfo",
